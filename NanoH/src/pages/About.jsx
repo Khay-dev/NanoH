@@ -2,7 +2,8 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import "../styles/About.css";
-import image1 from "../images/iot.jpg";
+import image1 from "../images/AboutB.jpg";
+import image2 from "../images/AboutA.jpg";
 
 const About = () => {
     return (
@@ -14,9 +15,7 @@ const About = () => {
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing
                         elit. Aliquid fuga illo a cupiditate totam excepturi est
-                        quibusdam corporis. Voluptates, ex Lorem ipsum dolor sit
-                        amet consectetur, adipisicing elit. Provident illo
-                        suscipit recusandae omnis, fuga ut! .
+                        quibusdam corporis. Voluptates, ex Lorem ipsum dolor.
                     </p>
                     <div className="hero-btn">
                         <Link to="/Contact">
@@ -25,23 +24,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <section className="section-1-about">
-                <div className="header">Nano Hertz</div>
-                <div className="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Exercitationem pariatur minus, molestiae totam eligendi id
-                    fugiat sunt voluptatibus error sequi ab iure animi
-                    laboriosam, repellat vel obcaecati laborum sapiente! Quod
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Aliquam quo minus eius perspiciatis adipisci, ipsa rem
-                    sapiente tenetur similique Lorem ipsum dolor sit, amet
-                    consectetur adipisicing elit. Hic, porro. Lorem ipsum dolor
-                    sit amet consectetur adipisicing elit. Tempora labore, Lorem
-                    ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi, dolore! molestias architecto ad dolore doloribus
-                    ut eum inventore dolores?
-                </div>
-            </section>
             <section className="section-2-about">
                 <div className="section-a">
                     <div className="title">Nano Hertz</div>
@@ -85,7 +67,7 @@ const About = () => {
             </section>
             <section className="section-4-about">
                 <div className="section-a">
-                    <img src={image1} alt="" />
+                    <img src={image2} alt="" />
                 </div>
                 <div className="section-b">
                     <div className="title">

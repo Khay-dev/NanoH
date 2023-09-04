@@ -29,7 +29,7 @@ const Nav = () => {
         >
             <div className="nav-holder-1">
                 <Link to="/">
-                    <div className="logo"> LOGO</div>
+                    <div className="logo"> </div>
                 </Link>
             </div>
             <div className={`nav-holder-2 ${isOpen ? "is-active" : ""}`}>
@@ -43,7 +43,8 @@ const Nav = () => {
                         </li>
                     </Link>
                     <Link to="/about">
-                        <li className={activePage === "/about" ? "active" : ""}>
+                        <li className={activePage ===
+                            "/about" ? "active" : ""}>
                             About Us
                         </li>
                     </Link>
@@ -59,11 +60,14 @@ const Nav = () => {
                     <Link to="/Contact">
                         <li
                             className={
-                                activePage === "/service" ? "active" : ""
+                                activePage === "/Contact" ? "active" : ""
                             }
                         >
                             Contact
                         </li>
+                    </Link>
+                    <Link to="/Book" className="contactPP">
+                        <li>Book a Meeting</li>
                     </Link>
                 </ul>
             </div>

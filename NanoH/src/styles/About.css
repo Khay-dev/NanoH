@@ -1,6 +1,6 @@
 .about-hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.888), rgba(17, 17, 17, 0.688)), url(../images/hero.png);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.688), rgba(17, 17, 17, 0.588)), url(../images/About.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -9,7 +9,7 @@
 }
 
 .about-main-hero {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -18,7 +18,7 @@
     position: absolute;
     text-align: left;
     top: 50%;
-    left: 54%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 999;
 }
@@ -49,7 +49,7 @@
     font-weight: 900;
     font-size: clamp(2.1rem, 1.5vw + 1rem, 3rem);
     line-height: 1.25;
-    color: #18bae2;
+    color: #39c7f4;
 }
 
 .section-1-about .text {
@@ -81,9 +81,9 @@
 .section-2-about .section-a .title,
 .section-4-about .section-b .title {
     font-weight: 900;
-    font-size: clamp(2.1rem, 1.5vw + 1rem, 3rem);
+    font-size: clamp(1.5rem, 1.5vw + 1rem, 3rem);
     line-height: 1.25;
-    color: #18bae2;
+    color: #39c7f4;
 }
 
 .section-2-about .section-a .text,
@@ -114,18 +114,42 @@
 .section-3-about .section-a {
     width: 45%;
     font-weight: 700;
-    font-size: clamp(1.4rem, 1vw + 1rem, 1.7rem);
+    font-size: clamp(1.3rem, 1vw + 1rem, 1.7rem);
     line-height: 1.25;
-    color: #18bae2;
+    color: #39c7f4;
 }
 
 
+/* tablet view */
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+    .about-main-hero p {
+        width: 50%;
+
+    }
+
+    .about-main-hero {
+        top: 47%;
+        left: 51%;
+    }
+
+    .about-hero {
+        height: 80vh;
+    }
+
+    .section-3-home {
+        height: 35vh;
+    }
+}
 
 
 @media (max-width: 767px) {
 
     .about-hero {
         background-position: right;
+    }
+
+    .about-main-hero {
+        top: 53%;
     }
 
     .about-main-hero p,
@@ -154,5 +178,15 @@
     .section-3-about,
     .section-4-about {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 290px) {
+
+    .section-1-about,
+    .section-2-about,
+    .section-3-about,
+    .section-4-about {
+        padding: 40px 20px;
     }
 }

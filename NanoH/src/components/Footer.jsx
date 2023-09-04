@@ -11,8 +11,8 @@ const Footer = () => {
                     <div className="footer-1">
                         <div className="location">
                             <span>
-                                Plot 392 Trans Amadi Industrial Layout <br />{" "}
-                                Port Harcourt, Rivers State, Nigeria.
+                                Plot 392 Ada George Off Location <br /> Port
+                                Harcourt, Rivers State, Nigeria.
                             </span>
                         </div>
                         <div className="phone">
