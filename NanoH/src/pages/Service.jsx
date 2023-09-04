@@ -33,28 +33,28 @@ const Service = () => {
                 </div>
                 <div className="section-about-2">
                     <div className="section-b">
-                        <h4>Board Design</h4>
+                        <h4> IoT Hardware Design</h4>
                         <p>
                             Crafting seamless experiences through thoughtful and
                             innovative design solutions.
                         </p>
                     </div>
                     <div className="section-c">
-                        <h4>Iot Strategy</h4>
+                        <h4> IoT Solution Consultation</h4>
                         <p>
                             Elevating our services through strategic insights
                             and captivating visual narratives.
                         </p>
                     </div>
                     <div className="section-d">
-                        <h4>Content Strategy</h4>
+                        <h4>IoT Business Accelerator</h4>
                         <p>
                             Shaping narratives to engage, inform, and inspire
                             audiences effectively.
                         </p>
                     </div>
                     <div className="section-e">
-                        <h4>Visual Design</h4>
+                        <h4>Technical Support & Maintenance</h4>
                         <p>
                             Arranging visuals for clear communication across
                             mediums and platforms.
