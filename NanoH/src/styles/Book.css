@@ -103,4 +103,8 @@
     .book {
         background-position: center;
     }
+
+    .section-1 .section-a span {
+        font-size: 2.1rem
+    }
 }

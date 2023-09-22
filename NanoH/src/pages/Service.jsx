@@ -28,19 +28,9 @@ const Service = () => {
             </div>
             <section className="section-1-service">
                 <div className="section-a">
-                    IOT <br /> SERVICE
+                    IOT <br /> SERVICES
                 </div>
                 <div className="section-about-2">
-                    <div className="section-b">
-                        <h4> IoT Hardware Design</h4>
-                        <p>
-                            At NanoHertz-IoT Technologies, we specialize in
-                            crafting cutting-edge IoT hardware solutions. Our
-                            designs combine innovation and reliability to ensure
-                            seamless connectivity for your IoT devices. Lets
-                            create the hardware that drives your vision.
-                        </p>
-                    </div>
                     <div className="section-c">
                         <h4> IoT Solution Consultation</h4>
                         <p>
@@ -49,6 +39,16 @@ const Service = () => {
                             complexities of IoT, helping you develop a strategic
                             roadmap tailored to your business needs. Lets shape
                             your IoT journey together.
+                        </p>
+                    </div>
+                    <div className="section-b">
+                        <h4> IoT Hardware Design</h4>
+                        <p>
+                            At NanoHertz-IoT Technologies, we specialize in
+                            crafting cutting-edge IoT hardware solutions. Our
+                            designs combine innovation and reliability to ensure
+                            seamless connectivity for your IoT devices. Lets
+                            create the hardware that drives your vision.
                         </p>
                     </div>
                     <div className="section-d">
