@@ -91,7 +91,11 @@ nav .nav-holder-1 .logo {
     }
 
     nav {
-        padding: 20px 30px;
+        padding: 20px;
+    }
+
+    .nav-holder-1 {
+        width: 12%;
     }
 }
 

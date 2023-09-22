@@ -222,7 +222,7 @@
 }
 
 .section-3-home {
-    height: 70vh;
+    height: 50vh;
     background-color: #fff;
     padding: 35px 30px;
     position: relative;
@@ -267,6 +267,7 @@
     .section-3-home {
         height: 35vh;
     }
+       
 }
 
 @media (max-width: 767px) {

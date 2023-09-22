@@ -12,13 +12,12 @@ const Service = () => {
             <div className="service-hero">
                 <Nav />
                 <div className="service-main-hero">
-                    <h2>Nano Hertz</h2>
+                    <h2>NanoHertz-IoT</h2>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Aliquid fuga illo a cupiditate totam excepturi est
-                        quibusdam corporis. Voluptates, ex Lorem ipsum dolor sit
-                        amet consectetur, adipisicing elit. Provident illo
-                        suscipit recusandae omnis, fuga ut! .
+                        Our commitment to excellence, reliability, and tailored
+                        solutions sets us apart. Join us on this transformative
+                        journey as we shape the future of connectivity, one
+                        innovation at a time.
                     </p>
                     <div className="hero-btn">
                         <Link to="/Contact">
@@ -35,29 +34,41 @@ const Service = () => {
                     <div className="section-b">
                         <h4> IoT Hardware Design</h4>
                         <p>
-                            Crafting seamless experiences through thoughtful and
-                            innovative design solutions.
+                            At NanoHertz-IoT Technologies, we specialize in
+                            crafting cutting-edge IoT hardware solutions. Our
+                            designs combine innovation and reliability to ensure
+                            seamless connectivity for your IoT devices. Lets
+                            create the hardware that drives your vision.
                         </p>
                     </div>
                     <div className="section-c">
                         <h4> IoT Solution Consultation</h4>
                         <p>
-                            Elevating our services through strategic insights
-                            and captivating visual narratives.
+                            Unlock the full potential of IoT with our expert
+                            consultation service. We will guide you through the
+                            complexities of IoT, helping you develop a strategic
+                            roadmap tailored to your business needs. Lets shape
+                            your IoT journey together.
                         </p>
                     </div>
                     <div className="section-d">
                         <h4>IoT Business Accelerator</h4>
                         <p>
-                            Shaping narratives to engage, inform, and inspire
-                            audiences effectively.
+                            Our IoT Business Accelerator service is designed to
+                            fast-track your projects. From idea to
+                            implementation, we provide the expertise and
+                            resources to accelerate your IoT journey, ensuring
+                            you reach your goals with efficiency and agility.
                         </p>
                     </div>
                     <div className="section-e">
                         <h4>Technical Support & Maintenance</h4>
                         <p>
-                            Arranging visuals for clear communication across
-                            mediums and platforms.
+                            Our dedicated technical support and maintenance
+                            services ensure your IoT infrastructure runs
+                            seamlessly. We are here to keep your systems
+                            up-to-date, secure, and optimized, so you can focus
+                            on what matters most.
                         </p>
                     </div>
                 </div>
@@ -67,18 +78,15 @@ const Service = () => {
                     IOT <br /> SOLUTIONS
                 </div>
                 <div className="section-b">
-                    <h4>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Laudantium, r adipisicing elit. Laudantium.r adipisicing
-                        elit. Laudantium.
-                    </h4>
+                    <h4>Tailored IoT Solutions for Diverse Industries</h4>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Obcaecati illo tempora nemo distinctio at
-                        voluptate vero pariatur perspiciatis quisquam eveniet,
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Ratione eaque adipisci odio explicabo architecto
-                        quam id, quis at eius voluptate!
+                        NanoHertz-IoT Technologies offers customized IoT
+                        solutions that span various industries, from agriculture
+                        and smart homes to smart cities and beyond. Our
+                        expertise adapts to your unique needs. Ready to explore
+                        how IoT can transform your operations? Book a meeting
+                        with us today, and lets unlock your IoT potential across
+                        diverse sectors.
                     </p>
                     <Link to="/Book">
                         <span></span>Book a meeting
@@ -90,17 +98,13 @@ const Service = () => {
             </section>
             <section className="section-3-service">
                 <div className="section-a">
-                    <div>
-                        Lorem ipsum dolor sit amet,elit elit elit Accusamu
-                        Lorem, ipsum dolor.
-                    </div>
+                    <div>NanoHertz-IoT Custom Board</div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Atque pariatur porro veniam soluta magni totam quae
-                        mollitia itaque Lorem ipsum dolor sit amet. Lorem ipsum
-                        dolor sit amet elit. natus Lorem ipsum dolor sit amet
-                        elit. Fuga velit eius totam illo non eos esse sunt
-                        aliquid.
+                        Experience innovation at its core with our
+                        custom-designed IoT boards. Crafted for performance,
+                        reliability, and versatility, our IoT boards are the
+                        foundation of your connectivity solutions. Explore how
+                        our boards can power your IoT vision.
                     </p>
                 </div>
                 <div className="section-b">
@@ -110,11 +114,9 @@ const Service = () => {
             <section className="section-3-home">
                 <div className="main-3">
                     <div className="text">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Repudiandae sint quaerat dignissimos tenetur
-                        architecto? Tempora laudantium, ducimus veniam porro
-                        quae natus hic. Asperiores aliquam, rerum temporibus
-                        quia quisquam quasi perspiciatis.
+                        We are not just engineers; we are innovators. Our team
+                        is dedicated to pushing the boundaries of technology,
+                        crafting solutions that redefine what is possible.
                     </div>
                     <Link to="/About">
                         <div className="custom-btn btn-13">Contact Us</div>

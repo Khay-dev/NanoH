@@ -2,8 +2,8 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import "../styles/About.css";
-import image1 from "../images/AboutB.jpg";
-import image2 from "../images/AboutA.jpg";
+import image1 from "../images/About1.jpg";
+import image2 from "../images/About2.jpg";
 
 const About = () => {
     return (
@@ -11,11 +11,11 @@ const About = () => {
             <div className="about-hero">
                 <Nav />
                 <div className="about-main-hero">
-                    <h2>Nano Hertz</h2>
+                    <h2>NanoHertz-IoT</h2>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Aliquid fuga illo a cupiditate totam excepturi est
-                        quibusdam corporis. Voluptates, ex Lorem ipsum dolor.
+                        Our dedication to reliability, tailored solutions, and
+                        visionary thinking sets us apart. When you partner with
+                        NanoHertz-IoT, you choose a brighter future for your business.
                     </p>
                     <div className="hero-btn">
                         <Link to="/Contact">
@@ -26,16 +26,16 @@ const About = () => {
             </div>
             <section className="section-2-about">
                 <div className="section-a">
-                    <div className="title">Nano Hertz</div>
+                    <div className="title">NanoHertz-IoT</div>
                     <div className="text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Eius dolores corporis consequatur iste deserunt
-                        rem, modi accusantium ratione voluptatum est voluptates
-                        vero quae dolorem sequi Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Vero cupiditate eius animi
-                        optio sequi blanditiis qui doloribus? Cupiditate, magnam
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Magnam, omnis.
+                        At NanoHertz-IoT Technologies, we are driven by a
+                        singular vision—to pioneer tomorrows connectivity today.
+                        Our journey is defined by innovation, and our mission is
+                        to empower businesses of all sizes with visionary IoT
+                        hardware solutions. With expertise in hardware design
+                        and comprehensive services, we craft seamless
+                        connectivity that bridges the physical and digital
+                        realms.
                     </div>
                 </div>
                 <div className="section-b">
@@ -45,23 +45,12 @@ const About = () => {
             <section className="section-3-about">
                 <div className="section-a">
                     <div className="text">
-                        Our Mission at nanohertz is Lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Doloribus rerum incidunt
-                        placeat doloremque minima ad voluptatibus eveniet
-                        maiores possimus impedit dolores, necessitatibu.
-                    </div>
-                </div>
-                <div className="section-b">
-                    <div className="text">
-                        Our vision at nano hertz ipsum dolor sit amet
-                        consectetur adipisicing elit. Blanditiis obcaecati harum
-                        ullam iusto sapiente eligendi nisi. Dolor, nam quidem.
-                        Ducimus commodi porro hic reiciendis fugiat suscipit
-                        ipsum neque alias quasi architecto quisquam, inventore
-                        totam exercitationem nobis qui quia obcaecati ut nostrum
-                        voluptatum repellendus, natus libero! Rerum explicabo ab
-                        nemo quibusdam possimus. Doloribus voluptatibus
-                        voluptate reiciendis qui aliquam minima iure in.
+                        We envision a future where IoT solutions empower
+                        businesses with transformative connectivity. Our mission
+                        is to lead this evolution by crafting innovative
+                        hardware, delivering comprehensive services, and
+                        transforming data into actionable insights, driving
+                        efficiency, innovation, and growth today and tomorrow.
                     </div>
                 </div>
             </section>
@@ -70,30 +59,26 @@ const About = () => {
                     <img src={image2} alt="" />
                 </div>
                 <div className="section-b">
-                    <div className="title">
-                        Nano Hertz Lorem ipsum dolor sit amet sit amet sit amet
-                    </div>
+                    <div className="title">Why Partner with Us?</div>
                     <div className="text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Eius dolores corporis consequatur iste deserunt
-                        rem, modi accusantium ratione voluptatum est voluptates
-                        vero quae dolorem sequi Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Vero cupiditate eius animi
-                        optio sequi blanditiis qui doloribus? Cupiditate, magnam
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dignissimos explicabo obcaecati ipsa ratione ducimus,
-                        impedit velit porro at ipsam labore.
+                        At NanoHertz-IoT Technologies, we are not just a
+                        technology provider; we are your strategic partner in
+                        success. Businesses choose to work with us because we
+                        offer more than just IoT solutions; we offer expertise,
+                        innovation, and a commitment to your growth. With our
+                        cutting-edge hardware, comprehensive services, and
+                        data-driven insights, we empower you to transform your
+                        operations, enhance efficiency, and stay ahead of the
+                        competition.
                     </div>
                 </div>
             </section>
             <section className="section-3-home">
                 <div className="main-3">
                     <div className="text">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Repudiandae sint quaerat dignissimos tenetur
-                        architecto? Tempora laudantium, ducimus veniam porro
-                        quae natus hic. Asperiores aliquam, rerum temporibus
-                        quia quisquam quasi perspiciatis.
+                        We are not just engineers; we are innovators. Our team
+                        is dedicated to pushing the boundaries of technology,
+                        crafting solutions that redefine what is possible.
                     </div>
                     <Link to="/About">
                         <div className="custom-btn btn-13">Contact Us</div>

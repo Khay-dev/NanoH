@@ -11,14 +11,14 @@ const Home = () => {
             name: "IOT SOLUTIONS",
             image: "img",
             description:
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, assumenda Lorem, ipsum dolor sit amet consectetur adipisicing elit.Corporis, assumenda.Corporis, assumenda Lorem, ipsum dolor sit amet consectetur adipisicing elit.Corporis, assumenda.",
+                "We specialize in crafting IoT solutions that cater to the unique demands , commercial, and industrial domains. Whether you're seeking to enhance everyday life, boost operational efficiency, or drive industrial innovation.",
             id: crypto.randomUUID(),
         },
         {
             name: "IOT SERVICES",
             image: "img2",
             description:
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, assumenda Lorem, ipsum dolor sit amet consectetur adipisicing elit.Corporis, assumenda Corporis, assumenda Lorem, ipsum dolor sit amet consectetur adipisicing elit.Corporis, assumenda.",
+                "We are here to empower your business with connectivity that drives efficiency, innovation, and growth. Discover how our comprehensive services can transform your IoT journey..",
             id: crypto.randomUUID(),
         },
     ];
@@ -32,12 +32,13 @@ const Home = () => {
             <div className="hero">
                 <Nav />
                 <div className="main-hero">
-                    <h2>Nano Hertz</h2>
+                    <h2>NanoHertz-IoT</h2>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Blanditiis quia consectetur obcaecati amet
-                        mollitia dignissimos, molestias impedit, soluta quod
-                        maiores maxime .
+                        We are rewriting the future of connectivity, one
+                        innovation at a time. Our mission is to empower
+                        businesses, both small and large, with cutting-edge IoT
+                        solutions that seamlessly bridge the gap between
+                        physical and digital worlds.
                     </p>
                     <div className="hero-btn">
                         <Link to="/Contact">
@@ -52,15 +53,14 @@ const Home = () => {
 
             <section className="section-2-home">
                 <div className="section-2-a">
-                    <div className="title">Nano Hertz</div>
+                    <div className="title">NanoHertz-IoT</div>
                     <div className="text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Eius dolores corporis consequatur iste deserunt
-                        rem, modi accusantium ratione voluptatum est voluptates
-                        vero quae dolorem sequi Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Vero cupiditate eius animi
-                        optio sequi blanditiis qui doloribus? Cupiditate,
-                        magnam.
+                        At NanoHertz-IoT Technologies, we are pioneers of
+                        tomorrows connectivity. We specialize in designing
+                        cutting-edge IoT hardware that forms the backbone of
+                        transformative solutions. Our mission is to empower
+                        businesses with visionary IoT technology that seamlessly
+                        bridges the gap between the physical and digital worlds.
                     </div>
                     <Link to="/about">
                         <div className="custom-btn btn-13">Read More</div>
@@ -74,13 +74,11 @@ const Home = () => {
                 <div className="section-1-a">
                     <div className="header">OUR SERVICES</div>
                     <div className="text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Eos mollitia impedit ab consectetur cum nulla ipsa
-                        quia delectus natus voluptas. Eos mollitia impedit ab
-                        consectetur cum nulla ipsa quia delectus natus voluptas!
-                        Eos mollitia impedit ab consectetur cum nulla ipsa quia
-                        delectus natus voluptas!
-                    </div>{" "}
+                        Discover a world of IoT services that elevate your
+                        business. From innovative hardware design to
+                        comprehensive connectivity solutions, we are shaping the
+                        future at NanoHertz-IoT Technologies.
+                    </div>
                     <div className="section-1-c">
                         <Link to="/service">
                             <div className="custom-btn btn-13">Read More</div>
@@ -106,11 +104,9 @@ const Home = () => {
             <section className="section-3-home">
                 <div className="main-3">
                     <div className="text">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Repudiandae sint quaerat dignissimos tenetur
-                        architecto? Tempora laudantium, ducimus veniam porro
-                        quae natus hic. Asperiores aliquam, rerum temporibus
-                        quia quisquam quasi perspiciatis.
+                        We are not just engineers; we are innovators. Our team
+                        is dedicated to pushing the boundaries of technology,
+                        crafting solutions that redefine what is possible.
                     </div>
                     <Link to="/Contact">
                         <div className="custom-btn btn-13">Contact Us</div>

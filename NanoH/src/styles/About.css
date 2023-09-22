@@ -1,6 +1,6 @@
 .about-hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.688), rgba(17, 17, 17, 0.588)), url(../images/About.jpg);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.688), rgba(17, 17, 17, 0.588)), url(../images/ServiceA.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -17,7 +17,7 @@
     color: #fff;
     position: absolute;
     text-align: left;
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 999;
@@ -103,20 +103,19 @@
 
 .section-3-about {
     width: 100%;
-    height: 60%;
-    padding: 50px;
+    padding: 70px 50px;
+    text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 30px;
+    background: #fff;
 }
 
 .section-3-about .section-a {
-    width: 45%;
+    width: 70%;
     font-weight: 700;
     font-size: clamp(1.3rem, 1vw + 1rem, 1.7rem);
     line-height: 1.25;
-    color: #39c7f4;
 }
 
 

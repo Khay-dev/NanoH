@@ -1,4 +1,4 @@
-import { TfiAngleDoubleLeft } from "react-icons/tfi";
+import { TfiAngleDoubleLeft, TfiLinkedin } from "react-icons/tfi";
 import "./Footer.css";
 const Footer = () => {
     let top = () => {
@@ -11,18 +11,26 @@ const Footer = () => {
                     <div className="footer-1">
                         <div className="location">
                             <span>
-                                Plot 392 Ada George Off Location <br /> Port
+                                 Ada George <br /> Port
                                 Harcourt, Rivers State, Nigeria.
                             </span>
                         </div>
                         <div className="phone">
-                            <a href="tel: +234(0)456789">+2341111111111</a>
+                            <a href="tel: +2348129905287">+2348129905287</a>
                         </div>
                         <div className="mail">
-                            <a href="mailto:XXXXX">info@nanohertz.com</a>
+                            <a href="mailto:nanohertziot@gmail.com">
+                                nanohertziot@gmail.com
+                            </a>
                         </div>
                         <div className="socials">
-                            <a href="XXXXX">LinkedIn:Nanohertz</a>
+                            <TfiLinkedin />
+                            <a
+                                target="blank"
+                                href="https://www.linkedin.com/company/nanohertz-iot/"
+                            >
+                                LinkedIn
+                            </a>
                         </div>
                     </div>
 

@@ -1,6 +1,6 @@
 .service-hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.888), rgba(17, 17, 17, 0.688)), url(../images/ServiceA.jpg);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.888), rgba(17, 17, 17, 0.688)), url(../images/About.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -59,7 +59,7 @@
     width: 35%;
     font-weight: 900;
     line-height: 1.15;
-    font-size: clamp(1.3rem, 2vw + 1rem, 2.5rem);
+    font-size: clamp(1.3rem, 3vw + 1rem, 3.2rem);
     color: #39c7f4;
 }
 
@@ -70,7 +70,7 @@
     align-items: center;
     width: 60%;
     flex-wrap: wrap;
-    gap: 35px;
+    gap: 50px;
 }
 
 .section-1-service .section-b,
@@ -80,14 +80,18 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 40%;
+    max-width: 40%;
+    text-overflow: ellipsis;
+
 }
 
 .section-1-service .section-b h4,
 .section-1-service .section-c h4,
 .section-1-service .section-d h4,
 .section-1-service .section-e h4 {
-    font-size: 16px;
+    line-height: 1.1;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .section-1-service .section-b p,
@@ -106,18 +110,6 @@
     gap: 10px;
 }
 
-.section-2-service .section-a h4 {
-    font-weight: 900;
-    font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
-    line-height: 1;
-}
-
-.section-2-service .section-a p {
-    line-height: 1.25;
-    font-size: 16px;
-}
-
-
 .section-2-service .section-b {
     display: flex;
     flex-direction: column;
@@ -131,9 +123,9 @@
 }
 
 .section-2-service .section-b h4 {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.25;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.1;
 }
 
 .section-2-service .section-b a {
