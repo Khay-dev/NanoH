@@ -1,6 +1,10 @@
 import Nav from "../components/Nav";
-import { useState } from "react";
 import "../styles/Book.css";
+
+import { useState } from "react";
+
+import { Helmet } from "react-helmet";
+
 const Book = () => {
     const [fName, setFName] = useState("");
     const [lName, setLName] = useState("");
@@ -14,6 +18,10 @@ const Book = () => {
     };
     return (
         <div className="book">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title> NanoHertz|Book </title>
+            </Helmet>
             <Nav />
             <div className="section-1">
                 <div className="section-a">

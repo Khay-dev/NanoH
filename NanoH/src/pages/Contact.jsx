@@ -1,12 +1,14 @@
 import Nav from "../components/Nav";
-import { Helmet } from "react-helmet";
 import "../styles/Contact.css";
+
+import { Helmet } from "react-helmet";
+
 const Contact = () => {
     return (
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>H&W|Contact </title>
+                <title> NanoHertz|Contact </title>
             </Helmet>
             <div className="contact">
                 <div className="contact-hero">
@@ -21,8 +23,8 @@ const Contact = () => {
                     <div className="section-b">
                         <div className=" part part1">
                             <span>
-                                 Ada George  <br /> Port
-                                Harcourt, Rivers State, Nigeria.
+                                Ada George <br /> Port Harcourt, Rivers State,
+                                Nigeria.
                             </span>
                         </div>
                         <div className="part part2">

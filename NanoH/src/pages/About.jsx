@@ -1,13 +1,21 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 import "../styles/About.css";
+
+import { Link } from "react-router-dom";
+
 import image1 from "../images/About1.jpg";
 import image2 from "../images/About2.jpg";
+
+import { Helmet } from "react-helmet";
 
 const About = () => {
     return (
         <div className="about">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title> NanoHertz|About </title>
+            </Helmet>
             <div className="about-hero">
                 <Nav />
                 <div className="about-main-hero">

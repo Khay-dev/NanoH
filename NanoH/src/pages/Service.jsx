@@ -6,9 +6,16 @@ import { Link } from "react-router-dom";
 import { BsArrowUpRight } from "react-icons/bs";
 
 import image1 from "../images/ServiceB.jpg";
+
+import { Helmet } from "react-helmet";
+
 const Service = () => {
     return (
         <div className="service">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title> NanoHertz|Service </title>
+            </Helmet>
             <div className="service-hero">
                 <Nav />
                 <div className="service-main-hero">
