@@ -27,8 +27,7 @@ footer .footer-3 {
 .location,
 .phone,
 .mail,
-.top,
-.socials {
+.top {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -60,6 +59,14 @@ footer .footer-3 {
 .final-footer .copy {
     width: 35%;
     line-height: 1.45;
+}
+
+
+.socials a {
+    display: flex;
+    align-content: center;
+    gap: 5px;
+    color: #fff;
 }
 
 

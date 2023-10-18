@@ -16,8 +16,8 @@ nav .nav-holder-1 .logo {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 100px;
-    height: 95px;
+    width: 70px;
+    height: 70px;
 }
 
 .nav-holder-1 {
@@ -148,11 +148,16 @@ nav .nav-holder-1 .logo {
     }
 
     nav {
-        padding: 20px 30px;
+        padding: 20px 26px;
     }
 
     .contactPP {
         display: block;
+    }
+
+    nav .nav-holder-1 .logo {
+        height: 60px;
+        width: 60px;
     }
 
 }

@@ -28,7 +28,7 @@ const Nav = () => {
             }}
         >
             <div className="nav-holder-1">
-                <Link to="/">
+                <Link to="/" className="logo">
                     <div className="logo"> </div>
                 </Link>
             </div>
@@ -42,16 +42,16 @@ const Nav = () => {
                             Home
                         </li>
                     </Link>
-                    <Link to="/about">
+                    <Link to="/About">
                         <li className={activePage ===
-                            "/about" ? "active" : ""}>
+                            "/About" ? "active" : ""}>
                             About Us
                         </li>
                     </Link>
-                    <Link to="/service">
+                    <Link to="/Service">
                         <li
                             className={
-                                activePage === "/service" ? "active" : ""
+                                activePage === "/Service" ? "active" : ""
                             }
                         >
                             Services

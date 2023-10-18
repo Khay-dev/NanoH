@@ -12,7 +12,7 @@ const Service = () => {
             <div className="service-hero">
                 <Nav />
                 <div className="service-main-hero">
-                    <h2>NanoHertz-IoT</h2>
+                    <h2>Our Service</h2>
                     <p>
                         Our commitment to excellence, reliability, and tailored
                         solutions sets us apart. Join us on this transformative
@@ -68,7 +68,7 @@ const Service = () => {
                             services ensure your IoT infrastructure runs
                             seamlessly. We are here to keep your systems
                             up-to-date, secure, and optimized, so you can focus
-                            on what matters most.
+                            on what matters.
                         </p>
                     </div>
                 </div>
@@ -118,7 +118,7 @@ const Service = () => {
                         is dedicated to pushing the boundaries of technology,
                         crafting solutions that redefine what is possible.
                     </div>
-                    <Link to="/About">
+                    <Link to="/Contact">
                         <div className="custom-btn btn-13">Contact Us</div>
                     </Link>
                 </div>

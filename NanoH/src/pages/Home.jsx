@@ -44,7 +44,7 @@ const Home = () => {
                         <Link to="/Contact">
                             <div className="custom-btn btn-13">Contact Us</div>
                         </Link>
-                        <Link to="/about">
+                        <Link to="/About">
                             <div className="custom-btn btn-13">About Us</div>
                         </Link>
                     </div>
@@ -62,7 +62,7 @@ const Home = () => {
                         businesses with visionary IoT technology that seamlessly
                         bridges the gap between the physical and digital worlds.
                     </div>
-                    <Link to="/about">
+                    <Link to="/About">
                         <div className="custom-btn btn-13">Read More</div>
                     </Link>
                 </div>
@@ -80,7 +80,7 @@ const Home = () => {
                         future at NanoHertz-IoT Technologies.
                     </div>
                     <div className="section-1-c">
-                        <Link to="/service">
+                        <Link to="/Service">
                             <div className="custom-btn btn-13">Read More</div>
                         </Link>
                     </div>

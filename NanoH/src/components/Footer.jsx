@@ -11,8 +11,8 @@ const Footer = () => {
                     <div className="footer-1">
                         <div className="location">
                             <span>
-                                 Ada George <br /> Port
-                                Harcourt, Rivers State, Nigeria.
+                                Ada George <br /> Port Harcourt, Rivers State,
+                                Nigeria.
                             </span>
                         </div>
                         <div className="phone">
@@ -24,11 +24,11 @@ const Footer = () => {
                             </a>
                         </div>
                         <div className="socials">
-                            <TfiLinkedin />
                             <a
                                 target="blank"
                                 href="https://www.linkedin.com/company/nanohertz-iot/"
                             >
+                                <TfiLinkedin />
                                 LinkedIn
                             </a>
                         </div>

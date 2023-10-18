@@ -11,11 +11,12 @@ const About = () => {
             <div className="about-hero">
                 <Nav />
                 <div className="about-main-hero">
-                    <h2>NanoHertz-IoT</h2>
+                    <h2>About-Us</h2>
                     <p>
                         Our dedication to reliability, tailored solutions, and
                         visionary thinking sets us apart. When you partner with
-                        NanoHertz-IoT, you choose a brighter future for your business.
+                        NanoHertz-IoT, you choose a brighter future for your
+                        business.
                     </p>
                     <div className="hero-btn">
                         <Link to="/Contact">
@@ -59,7 +60,7 @@ const About = () => {
                     <img src={image2} alt="" />
                 </div>
                 <div className="section-b">
-                    <div className="title">Why Partner with Us?</div>
+                    <div className="title">Why Us?</div>
                     <div className="text">
                         At NanoHertz-IoT Technologies, we are not just a
                         technology provider; we are your strategic partner in
@@ -80,7 +81,7 @@ const About = () => {
                         is dedicated to pushing the boundaries of technology,
                         crafting solutions that redefine what is possible.
                     </div>
-                    <Link to="/About">
+                    <Link to="/Contact">
                         <div className="custom-btn btn-13">Contact Us</div>
                     </Link>
                 </div>
