@@ -4,8 +4,8 @@ import "../styles/About.css";
 
 import { Link } from "react-router-dom";
 
-import image1 from "../images/About1.jpg";
-import image2 from "../images/About2.jpg";
+import image1 from "../images/About1.webp";
+import image2 from "../images/About2.webp";
 
 import { Helmet } from "react-helmet";
 
@@ -36,12 +36,12 @@ const About = () => {
             <section className="section-2-about">
                 <div className="section-a">
                     <div className="title">NanoHertz-IoT</div>
-                    <div className="text">
+                    <div className="text" id="abtext">
                         At NanoHertz-IoT Technologies, we are driven by a
                         singular vision—to pioneer tomorrows connectivity today.
                         Our journey is defined by innovation, and our mission is
                         to empower businesses of all sizes with visionary IoT
-                        hardware solutions. With expertise in hardware design
+                        device solutions. With expertise in device design
                         and comprehensive services, we craft seamless
                         connectivity that bridges the physical and digital
                         realms.
@@ -53,11 +53,11 @@ const About = () => {
             </section>
             <section className="section-3-about">
                 <div className="section-a">
-                    <div className="text">
+                    <div className="text" id="abtextii">
                         We envision a future where IoT solutions empower
                         businesses with transformative connectivity. Our mission
                         is to lead this evolution by crafting innovative
-                        hardware, delivering comprehensive services, and
+                        device, delivering comprehensive services, and
                         transforming data into actionable insights, driving
                         efficiency, innovation, and growth today and tomorrow.
                     </div>
@@ -69,13 +69,13 @@ const About = () => {
                 </div>
                 <div className="section-b">
                     <div className="title">Why Us?</div>
-                    <div className="text">
+                    <div className="text" id="abtextiii">
                         At NanoHertz-IoT Technologies, we are not just a
                         technology provider; we are your strategic partner in
                         success. Businesses choose to work with us because we
                         offer more than just IoT solutions; we offer expertise,
                         innovation, and a commitment to your growth. With our
-                        cutting-edge hardware, comprehensive services, and
+                        cutting-edge device, comprehensive services, and
                         data-driven insights, we empower you to transform your
                         operations, enhance efficiency, and stay ahead of the
                         competition.

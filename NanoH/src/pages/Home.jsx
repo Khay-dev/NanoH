@@ -1,7 +1,7 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import "../styles/Home.css";
-import image1 from "../images/homeA.jpg";
+import image1 from "../images/homeA.webp";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
@@ -57,7 +57,7 @@ const Home = () => {
                     <div className="text">
                         At NanoHertz-IoT Technologies, we are pioneers of
                         tomorrows connectivity. We specialize in designing
-                        cutting-edge IoT hardware that forms the backbone of
+                        cutting-edge IoT device that forms the backbone of
                         transformative solutions. Our mission is to empower
                         businesses with visionary IoT technology that seamlessly
                         bridges the gap between the physical and digital worlds.
@@ -75,7 +75,7 @@ const Home = () => {
                     <div className="header">OUR SERVICES</div>
                     <div className="text">
                         Discover a world of IoT services that elevate your
-                        business. From innovative hardware design to
+                        business. From innovative device design to
                         comprehensive connectivity solutions, we are shaping the
                         future at NanoHertz-IoT Technologies.
                     </div>

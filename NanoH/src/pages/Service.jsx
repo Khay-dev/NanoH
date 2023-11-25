@@ -1,11 +1,14 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import "../styles/Service.css";
-
+import iotsolutionconsultation from "../images/service/people-working-marketing-agency.webp";
+import techsupportandmaintain from "../images/service/pensive-black-female-engineer-hardhat-standing-warehouse-talking-cellphone-shelves-with-goods-background-copy-space-labor-communication-concept.webp"
+import iotdevicedesign from "../images/service/home-automation-system-with-voiceactivated-features-smart-lighting-created-with-generative-ai_419341-9107.webp"
+import iotbusinessacceleration from "../images/service/accounting-team-finance-ok_590464-85256.JPEG (1).webp"
 import { Link } from "react-router-dom";
 import { BsArrowUpRight } from "react-icons/bs";
 
-import image1 from "../images/ServiceB.jpg";
+import image1 from "../images/ServiceB.webp";
 
 import { Helmet } from "react-helmet";
 
@@ -33,12 +36,14 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-            <section className="section-1-service">
-                <div className="section-a">
-                    IOT <br /> SERVICES
+            <div className=" aa ">
+                    IOT <br/>SERVICES
                 </div>
+             <section className="section-1-service">
                 <div className="section-about-2">
-                    <div className="section-c">
+                <div className="serv-flex">
+                <img src={iotsolutionconsultation} className="serv-img"></img>
+                <div className="section-c" >
                         <h4> IoT Solution Consultation</h4>
                         <p>
                             Unlock the full potential of IoT with our expert
@@ -48,17 +53,25 @@ const Service = () => {
                             your IoT journey together.
                         </p>
                     </div>
-                    <div className="section-b">
-                        <h4> IoT Hardware Design</h4>
-                        <p>
-                            At NanoHertz-IoT Technologies, we specialize in
-                            crafting cutting-edge IoT hardware solutions. Our
-                            designs combine innovation and reliability to ensure
-                            seamless connectivity for your IoT devices. Lets
-                            create the hardware that drives your vision.
-                        </p>
-                    </div>
-                    <div className="section-d">
+                </div>
+                <div className="serv-flex aaa">
+                <div className="section-c">
+                    
+                    <h4> IoT Device Design</h4>
+                    <p>
+                        At NanoHertz-IoT Technologies, we specialize in
+                        crafting cutting-edge IoT device solutions. Our
+                        designs combine innovation and reliability to ensure
+                        seamless connectivity for your IoT device. Lets
+                        create the device that drives your vision.
+                    </p>
+                </div>
+                <img src={iotdevicedesign} className="ser-img"></img>
+                </div>
+
+                <div className="serv-flex">
+                <img src={iotbusinessacceleration} className="serv-img"></img>
+                    <div className="section-c">
                         <h4>IoT Business Accelerator</h4>
                         <p>
                             Our IoT Business Accelerator service is designed to
@@ -68,7 +81,12 @@ const Service = () => {
                             you reach your goals with efficiency and agility.
                         </p>
                     </div>
-                    <div className="section-e">
+                    </div>
+
+                    <div className="serv-flex aaa">
+                  
+                    <div className="section-c">
+                    
                         <h4>Technical Support & Maintenance</h4>
                         <p>
                             Our dedicated technical support and maintenance
@@ -78,13 +96,15 @@ const Service = () => {
                             on what matters.
                         </p>
                     </div>
+                    <img src={techsupportandmaintain} className="ser-img"></img>
+                    </div>
                 </div>
             </section>
-            <section className="section-2-service">
+            <section className="section-2-service x">
                 <div className="section-a">
                     IOT <br /> SOLUTIONS
                 </div>
-                <div className="section-b">
+                <div className="section-b" id="secb">
                     <h4>Tailored IoT Solutions for Diverse Industries</h4>
                     <p>
                         NanoHertz-IoT Technologies offers customized IoT
@@ -95,8 +115,8 @@ const Service = () => {
                         with us today, and lets unlock your IoT potential across
                         diverse sectors.
                     </p>
-                    <Link to="/Book">
-                        <span></span>Book a meeting
+                    <Link to="/Book" id="bookspantext">
+                        <span ></span>Book a meeting
                         <span className="span-2">
                             <BsArrowUpRight />
                         </span>
@@ -106,7 +126,7 @@ const Service = () => {
             <section className="section-3-service">
                 <div className="section-a">
                     <div>NanoHertz-IoT Custom Board</div>
-                    <p>
+                    <p id="boardptext">
                         Experience innovation at its core with our
                         custom-designed IoT boards. Crafted for performance,
                         reliability, and versatility, our IoT boards are the

@@ -1,5 +1,5 @@
 .book {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.588), rgba(17, 17, 17, 0.688)), url(../images/book.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255));
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -8,21 +8,21 @@
 .section-1 {
     display: flex;
     width: 100%;
-    justify-content: center;
     gap: 2rem;
+    justify-content: space-between;
     padding: 150px 50px 50px;
 }
 
-.section-1 .section-a,
-.section-1 .section-b {
+.section-1 .section-a {
     width: 50%;
 }
 
 .section-1 .section-a {
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     gap: 30px;
-    color: #fff;
+    color: #000;
     padding-top: 20px;
 
 }
@@ -33,10 +33,13 @@
     font-weight: 700;
 }
 
+
 .section-1 .section-b {
+    width: 40%;
     background-color: #fff;
     padding: 60px 40px;
     border-radius: 30px;
+    border: 1px solid #8080802d;
 
 }
 
@@ -47,14 +50,47 @@
 }
 
 .section-1 .section-b form input,
+.section-1 .section-b form select,
 .section-1 .section-b form textarea {
     border-radius: 30px;
     padding: 8px 20px;
-    border: 1px solid #39c7f4;
     accent-color: #000;
 }
 
+.section-1 .section-b form select {
+    background: white;
+}
+
+
 .section-1 .section-b form input::placeholder,
+.section-1 .section-b form select::placeholder,
+.section-1 .section-b form textarea::placeholder {
+    color: #000;
+}
+
+
+.section-1 .section-b form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.section-1 .section-b form input,
+.section-1 .section-b form select,
+.section-1 .section-b form textarea {
+    border-radius: 30px;
+    padding: 8px 20px;
+    accent-color: #000;
+}
+
+.section-1 .section-b form select {
+    background: white;
+}
+
+
+.section-1 .section-b form input::placeholder,
+.section-1 .section-b form select::placeholder,
 .section-1 .section-b form textarea::placeholder {
     color: #000;
 }
@@ -70,6 +106,37 @@
     border-radius: 20px;
 }
 
+
+#scp {
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+
+
+
+}
+
+#fname,
+#lname,
+#email,
+#nationality,
+#company,
+#solution {
+    border: 2px solid #8080802d;
+}
+
+#fname:hover,
+#lname:hover,
+#email:hover,
+#nationality:hover,
+#company:hover,
+#solution:hover {
+    border: 2px solid #39c7f4;
+}
+
+* {
+    border: 1px solid red;
+}
 
 @media screen and (min-width: 768px) and (max-width: 1025px) {
     .section-1 {
@@ -108,5 +175,10 @@
 
     .section-1 .section-a span {
         font-size: 2.1rem
+    }
+
+    #sctitle {
+        width: 100%;
+
     }
 }

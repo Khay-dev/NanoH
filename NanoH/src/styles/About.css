@@ -1,6 +1,6 @@
 .about-hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.688), rgba(17, 17, 17, 0.588)), url(../images/ServiceA.jpg);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.688), rgba(17, 17, 17, 0.588)), url(../images/ServiceA.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
+    gap: 15px; 
     color: #fff;
     position: absolute;
     text-align: left;
@@ -29,7 +29,7 @@
 }
 
 .about-main-hero p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.45;
     width: 44%;
     color: #fff;
@@ -118,6 +118,19 @@
     line-height: 1.25;
 }
 
+
+#abtext{
+    color: black;
+}
+
+#abtextii{
+    color: black;
+    
+}
+
+#abtextiii{
+    color: black;
+}
 
 /* tablet view */
 @media screen and (min-width: 768px) and (max-width: 1025px) {

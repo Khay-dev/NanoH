@@ -1,6 +1,6 @@
 .hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.488), rgba(17, 17, 17, 0.288)), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.488), rgba(17, 17, 17, 0.288)), url(../images/hero.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -147,7 +147,7 @@
 .section-1-home .section-1-b .container .img {
     height: 300px;
     width: 100%;
-    background-image: url(../images/solution.jpg);
+    background-image: url(../images/solution.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -156,7 +156,7 @@
 .section-1-home .section-1-b .container .img2 {
     height: 300px;
     width: 100%;
-    background-image: url(../images/homeB.jpg);
+    background-image: url(../images/homeB.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
