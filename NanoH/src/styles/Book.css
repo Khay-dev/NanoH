@@ -134,9 +134,6 @@
     border: 2px solid #39c7f4;
 }
 
-* {
-    border: 1px solid red;
-}
 
 @media screen and (min-width: 768px) and (max-width: 1025px) {
     .section-1 {
