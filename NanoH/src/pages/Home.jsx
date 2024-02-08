@@ -41,10 +41,10 @@ const Home = () => {
                         physical and digital worlds.
                     </p>
                     <div className="hero-btn">
-                        <Link to="/Contact">
+                        <Link to="/contact">
                             <div className="custom-btn btn-13">Contact Us</div>
                         </Link>
-                        <Link to="/About">
+                        <Link to="/about">
                             <div className="custom-btn btn-13">About Us</div>
                         </Link>
                     </div>
@@ -62,7 +62,7 @@ const Home = () => {
                         businesses with visionary IoT technology that seamlessly
                         bridges the gap between the physical and digital worlds.
                     </div>
-                    <Link to="/About">
+                    <Link to="/about">
                         <div className="custom-btn btn-13">Read More</div>
                     </Link>
                 </div>
@@ -80,7 +80,7 @@ const Home = () => {
                         future at NanoHertz-IoT Technologies.
                     </div>
                     <div className="section-1-c">
-                        <Link to="/Service">
+                        <Link to="/service">
                             <div className="custom-btn btn-13">Read More</div>
                         </Link>
                     </div>
@@ -108,7 +108,7 @@ const Home = () => {
                         is dedicated to pushing the boundaries of technology,
                         crafting solutions that redefine what is possible.
                     </div>
-                    <Link to="/Contact">
+                    <Link to="/contact">
                         <div className="custom-btn btn-13">Contact Us</div>
                     </Link>
                 </div>

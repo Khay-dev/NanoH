@@ -42,13 +42,12 @@ const Nav = () => {
                             Home
                         </li>
                     </Link>
-                    <Link to="/About">
-                        <li className={activePage ===
-                            "/About" ? "active" : ""}>
+                    <Link to="/about">
+                        <li className={activePage === "/About" ? "active" : ""}>
                             About Us
                         </li>
                     </Link>
-                    <Link to="/Service">
+                    <Link to="/service">
                         <li
                             className={
                                 activePage === "/Service" ? "active" : ""
@@ -57,7 +56,7 @@ const Nav = () => {
                             Services
                         </li>
                     </Link>
-                    <Link to="/Contact">
+                    <Link to="/contact">
                         <li
                             className={
                                 activePage === "/Contact" ? "active" : ""
@@ -66,7 +65,7 @@ const Nav = () => {
                             Contact
                         </li>
                     </Link>
-                    <Link to="/Book" className="contactPP">
+                    <Link to="/book" className="contactPP">
                         <li>Book a Meeting</li>
                     </Link>
                 </ul>
@@ -77,7 +76,7 @@ const Nav = () => {
             >
                 {isOpen ? <HiX /> : <HiMenuAlt1 />}
             </div>
-            <Link to="/Book" className="contactP">
+            <Link to="/book" className="contactP">
                 <span>Book a Meeting</span>
             </Link>
         </nav>

@@ -27,7 +27,7 @@ const About = () => {
                         business.
                     </p>
                     <div className="hero-btn">
-                        <Link to="/Contact">
+                        <Link to="/contact">
                             <div className="custom-btn btn-13">Contact Us</div>
                         </Link>
                     </div>
@@ -89,7 +89,7 @@ const About = () => {
                         is dedicated to pushing the boundaries of technology,
                         crafting solutions that redefine what is possible.
                     </div>
-                    <Link to="/Contact">
+                    <Link to="/contact">
                         <div className="custom-btn btn-13">Contact Us</div>
                     </Link>
                 </div>
